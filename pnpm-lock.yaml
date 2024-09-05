@@ -13,13 +13,13 @@ dependencies:
     version: 1.4.3-beta.0
   '@unovis/vue':
     specifier: 1.4.3-beta.0
-    version: 1.4.3-beta.0(@unovis/ts@1.4.3-beta.0)(vue@3.4.38)
+    version: 1.4.3-beta.0(@unovis/ts@1.4.3-beta.0)(vue@3.5.1)
   '@vee-validate/zod':
     specifier: ^4.13.2
-    version: 4.13.2(vue@3.4.38)
+    version: 4.13.2(vue@3.5.1)
   '@vueuse/core':
     specifier: ^11.0.3
-    version: 11.0.3(vue@3.4.38)
+    version: 11.0.3(vue@3.5.1)
   class-variance-authority:
     specifier: ^0.7.0
     version: 0.7.0
@@ -28,16 +28,16 @@ dependencies:
     version: 2.1.1
   embla-carousel-vue:
     specifier: ^8.2.0
-    version: 8.2.0(vue@3.4.38)
+    version: 8.2.0(vue@3.5.1)
   lucide-vue-next:
     specifier: ^0.438.0
-    version: 0.438.0(vue@3.4.38)
+    version: 0.438.0(vue@3.5.1)
   nuxt:
     specifier: ^3.13.0
     version: 3.13.0(typescript@5.5.4)(vite@5.4.2)
   radix-vue:
     specifier: ^1.9.5
-    version: 1.9.5(vue@3.4.38)
+    version: 1.9.5(vue@3.5.1)
   shadcn-nuxt:
     specifier: ^0.10.4
     version: 0.10.4
@@ -49,16 +49,16 @@ dependencies:
     version: 1.0.7(tailwindcss@3.4.10)
   v-calendar:
     specifier: ^3.1.2
-    version: 3.1.2(@popperjs/core@2.11.8)(vue@3.4.38)
+    version: 3.1.2(@popperjs/core@2.11.8)(vue@3.5.1)
   vaul-vue:
     specifier: ^0.2.0
-    version: 0.2.0(radix-vue@1.9.5)(vue@3.4.38)
+    version: 0.2.0(radix-vue@1.9.5)(vue@3.5.1)
   vee-validate:
     specifier: ^4.13.2
-    version: 4.13.2(vue@3.4.38)
+    version: 4.13.2(vue@3.5.1)
   vue:
-    specifier: latest
-    version: 3.4.38(typescript@5.5.4)
+    specifier: ^3.5.1
+    version: 3.5.1(typescript@5.5.4)
   vue-sonner:
     specifier: ^1.1.5
     version: 1.1.5
@@ -72,7 +72,7 @@ devDependencies:
     version: 1.2.0
   '@iconify/vue':
     specifier: ^4.1.2
-    version: 4.1.2(vue@3.4.38)
+    version: 4.1.2(vue@3.5.1)
   '@nuxtjs/tailwindcss':
     specifier: ^6.12.1
     version: 6.12.1
@@ -1165,12 +1165,12 @@ packages:
     resolution: {integrity: sha512-X8R8Oj771YRl/w+c1HqAC1szL8zWQRwFvgDwT129k9ACdBoud/+/rX9V0qiMl6LWUdP9voC2nDVZYPMQQsb6eA==}
     dev: false
 
-  /@floating-ui/vue@1.1.4(vue@3.4.38):
+  /@floating-ui/vue@1.1.4(vue@3.5.1):
     resolution: {integrity: sha512-ammH7T3vyCx7pmm9OF19Wc42zrGnUw0QvLoidgypWsCLJMtGXEwY7paYIHO+K+oLC3mbWpzIHzeTVienYenlNg==}
     dependencies:
       '@floating-ui/dom': 1.6.10
       '@floating-ui/utils': 0.2.7
-      vue-demi: 0.14.10(vue@3.4.38)
+      vue-demi: 0.14.10(vue@3.5.1)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
@@ -1186,13 +1186,13 @@ packages:
     resolution: {integrity: sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==}
     dev: true
 
-  /@iconify/vue@4.1.2(vue@3.4.38):
+  /@iconify/vue@4.1.2(vue@3.5.1):
     resolution: {integrity: sha512-CQnYqLiQD5LOAaXhBrmj1mdL2/NCJvwcC4jtW2Z8ukhThiFkLDkutarTOV2trfc9EXqUqRs0KqXOL9pZ/IyysA==}
     peerDependencies:
       vue: '>=3'
     dependencies:
       '@iconify/types': 2.0.0
-      vue: 3.4.38(typescript@5.5.4)
+      vue: 3.5.1(typescript@5.5.4)
     dev: true
 
   /@internationalized/date@3.5.5:
@@ -1541,7 +1541,7 @@ packages:
       - supports-color
     dev: false
 
-  /@nuxt/vite-builder@3.13.0(typescript@5.5.4)(vue@3.4.38):
+  /@nuxt/vite-builder@3.13.0(typescript@5.5.4)(vue@3.5.1):
     resolution: {integrity: sha512-FVIpT5wTxGcU3JDFxIyvT6isSZUujVKavQyPo3kgOQKWURDcBcvVY4HdJIVMsSIcaXafH13RZc5RKLlxfIGFdQ==}
     engines: {node: ^14.18.0 || >=16.10.0}
     peerDependencies:
@@ -1549,8 +1549,8 @@ packages:
     dependencies:
       '@nuxt/kit': 3.13.0(magicast@0.3.5)
       '@rollup/plugin-replace': 5.0.7(rollup@4.21.2)
-      '@vitejs/plugin-vue': 5.1.3(vite@5.4.2)(vue@3.4.38)
-      '@vitejs/plugin-vue-jsx': 4.0.1(vite@5.4.2)(vue@3.4.38)
+      '@vitejs/plugin-vue': 5.1.3(vite@5.4.2)(vue@3.5.1)
+      '@vitejs/plugin-vue-jsx': 4.0.1(vite@5.4.2)(vue@3.5.1)
       autoprefixer: 10.4.20(postcss@8.4.43)
       clear: 0.1.0
       consola: 3.2.3
@@ -1579,7 +1579,7 @@ packages:
       vite: 5.4.2
       vite-node: 2.0.5
       vite-plugin-checker: 0.7.2(typescript@5.5.4)(vite@5.4.2)
-      vue: 3.4.38(typescript@5.5.4)
+      vue: 3.5.1(typescript@5.5.4)
       vue-bundle-renderer: 2.1.0
     transitivePeerDependencies:
       - '@biomejs/biome'
@@ -2055,13 +2055,13 @@ packages:
     resolution: {integrity: sha512-1giLc4dzgEKLMx5pgKjL6HlG5fjZMgCjzlKAlpr7yoUtetVPELgER1NtephAI910nMwfPTHNyWKSFmJdHkz2Cw==}
     dev: false
 
-  /@tanstack/vue-virtual@3.10.6(vue@3.4.38):
+  /@tanstack/vue-virtual@3.10.6(vue@3.5.1):
     resolution: {integrity: sha512-uVyUAV7rugRxgrw/f3J6FX6TGhxWAjXdT0PAbVNcIFNrj1Ftu/NT9bFLxKVQTkd8hnM6y8ijAlJ1xtBDGmo4gQ==}
     peerDependencies:
       vue: ^2.7.0 || ^3.0.0
     dependencies:
       '@tanstack/virtual-core': 3.10.6
-      vue: 3.4.38(typescript@5.5.4)
+      vue: 3.5.1(typescript@5.5.4)
     dev: false
 
   /@trysound/sax@0.2.0:
@@ -2411,7 +2411,7 @@ packages:
       '@unhead/shared': 1.10.0
     dev: false
 
-  /@unhead/vue@1.10.0(vue@3.4.38):
+  /@unhead/vue@1.10.0(vue@3.5.1):
     resolution: {integrity: sha512-Cv9BViaOwCBdXy3bsTvJ10Rs808FSSq/ZfeBXzOjOxt08sbubf6Mr5opBdOlv/i1bzyFVIAqe5ABmrhC9mB80w==}
     peerDependencies:
       vue: '>=2.7 || >=3'
@@ -2420,7 +2420,7 @@ packages:
       '@unhead/shared': 1.10.0
       hookable: 5.5.3
       unhead: 1.10.0
-      vue: 3.4.38(typescript@5.5.4)
+      vue: 3.5.1(typescript@5.5.4)
     dev: false
 
   /@unovis/dagre-layout@0.8.8-2:
@@ -2475,21 +2475,21 @@ packages:
       - supports-color
     dev: false
 
-  /@unovis/vue@1.4.3-beta.0(@unovis/ts@1.4.3-beta.0)(vue@3.4.38):
+  /@unovis/vue@1.4.3-beta.0(@unovis/ts@1.4.3-beta.0)(vue@3.5.1):
     resolution: {integrity: sha512-QwaYb4I7lbEh2Ldv/cazGU05+Jrl/B9zakLnTRO4GMT6IVnD5faV07l83eK+fAurQNV9x8t5aPcHrQ/F7Lf3Gw==}
     peerDependencies:
       '@unovis/ts': 1.4.3-beta.0
       vue: ^3
     dependencies:
       '@unovis/ts': 1.4.3-beta.0
-      vue: 3.4.38(typescript@5.5.4)
+      vue: 3.5.1(typescript@5.5.4)
     dev: false
 
-  /@vee-validate/zod@4.13.2(vue@3.4.38):
+  /@vee-validate/zod@4.13.2(vue@3.5.1):
     resolution: {integrity: sha512-y1aqelutD6btX2ayZk3w8udClAykptphlGLwu0vlCqY2r9mrJqMn1EKqtcwXAvEom+ceTcHJOwGr2FUA7i+ZEg==}
     dependencies:
       type-fest: 4.26.0
-      vee-validate: 4.13.2(vue@3.4.38)
+      vee-validate: 4.13.2(vue@3.5.1)
       zod: 3.23.8
     transitivePeerDependencies:
       - vue
@@ -2517,7 +2517,7 @@ packages:
       - supports-color
     dev: false
 
-  /@vitejs/plugin-vue-jsx@4.0.1(vite@5.4.2)(vue@3.4.38):
+  /@vitejs/plugin-vue-jsx@4.0.1(vite@5.4.2)(vue@3.5.1):
     resolution: {integrity: sha512-7mg9HFGnFHMEwCdB6AY83cVK4A6sCqnrjFYF4WIlebYAQVVJ/sC/CiTruVdrRlhrFoeZ8rlMxY9wYpPTIRhhAg==}
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
@@ -2528,12 +2528,12 @@ packages:
       '@babel/plugin-transform-typescript': 7.25.2(@babel/core@7.25.2)
       '@vue/babel-plugin-jsx': 1.2.2(@babel/core@7.25.2)
       vite: 5.4.2
-      vue: 3.4.38(typescript@5.5.4)
+      vue: 3.5.1(typescript@5.5.4)
     transitivePeerDependencies:
       - supports-color
     dev: false
 
-  /@vitejs/plugin-vue@5.1.3(vite@5.4.2)(vue@3.4.38):
+  /@vitejs/plugin-vue@5.1.3(vite@5.4.2)(vue@3.5.1):
     resolution: {integrity: sha512-3xbWsKEKXYlmX82aOHufFQVnkbMC/v8fLpWwh6hWOUrK5fbbtBh9Q/WWse27BFgSy2/e2c0fz5Scgya9h2GLhw==}
     engines: {node: ^18.0.0 || >=20.0.0}
     peerDependencies:
@@ -2541,10 +2541,10 @@ packages:
       vue: ^3.2.25
     dependencies:
       vite: 5.4.2
-      vue: 3.4.38(typescript@5.5.4)
+      vue: 3.5.1(typescript@5.5.4)
     dev: false
 
-  /@vue-macros/common@1.12.2(vue@3.4.38):
+  /@vue-macros/common@1.12.2(vue@3.5.1):
     resolution: {integrity: sha512-+NGfhrPvPNOb3Wg9PNPEXPe0HTXmVe6XJawL1gi3cIjOSGIhpOdvmMT2cRuWb265IpA/PeL5Sqo0+DQnEDxLvw==}
     engines: {node: '>=16.14.0'}
     peerDependencies:
@@ -2559,7 +2559,7 @@ packages:
       ast-kit: 1.1.0
       local-pkg: 0.5.0
       magic-string-ast: 0.6.2
-      vue: 3.4.38(typescript@5.5.4)
+      vue: 3.5.1(typescript@5.5.4)
     transitivePeerDependencies:
       - rollup
     dev: false
@@ -2613,12 +2613,29 @@ packages:
       entities: 4.5.0
       estree-walker: 2.0.2
       source-map-js: 1.2.0
+    dev: false
+
+  /@vue/compiler-core@3.5.1:
+    resolution: {integrity: sha512-WdjF+NSgFYdWttHevHw5uaJFtKPalhmxhlu2uREj8cLP0uyKKIR60/JvSZNTp0x+NSd63iTiORQTx3+tt55NWQ==}
+    dependencies:
+      '@babel/parser': 7.25.6
+      '@vue/shared': 3.5.1
+      entities: 4.5.0
+      estree-walker: 2.0.2
+      source-map-js: 1.2.0
 
   /@vue/compiler-dom@3.4.38:
     resolution: {integrity: sha512-Osc/c7ABsHXTsETLgykcOwIxFktHfGSUDkb05V61rocEfsFDcjDLH/IHJSNJP+/Sv9KeN2Lx1V6McZzlSb9EhQ==}
     dependencies:
       '@vue/compiler-core': 3.4.38
       '@vue/shared': 3.4.38
+    dev: false
+
+  /@vue/compiler-dom@3.5.1:
+    resolution: {integrity: sha512-Ao23fB1lINo18HLCbJVApvzd9OQe8MgmQSgyY5+umbWj2w92w9KykVmJ4Iv2US5nak3ixc2B+7Km7JTNhQ8kSQ==}
+    dependencies:
+      '@vue/compiler-core': 3.5.1
+      '@vue/shared': 3.5.1
 
   /@vue/compiler-sfc@3.4.38:
     resolution: {integrity: sha512-s5QfZ+9PzPh3T5H4hsQDJtI8x7zdJaew/dCGgqZ2630XdzaZ3AD8xGZfBqpT8oaD/p2eedd+pL8tD5vvt5ZYJQ==}
@@ -2632,12 +2649,33 @@ packages:
       magic-string: 0.30.11
       postcss: 8.4.43
       source-map-js: 1.2.0
+    dev: false
+
+  /@vue/compiler-sfc@3.5.1:
+    resolution: {integrity: sha512-DFizMNH8eDglLhlfwJ0+ciBsztaYe3fY/zcZjrqL1ljXvUw/UpC84M1d7HpBTCW68SNqZyIxrs1XWmf+73Y65w==}
+    dependencies:
+      '@babel/parser': 7.25.6
+      '@vue/compiler-core': 3.5.1
+      '@vue/compiler-dom': 3.5.1
+      '@vue/compiler-ssr': 3.5.1
+      '@vue/shared': 3.5.1
+      estree-walker: 2.0.2
+      magic-string: 0.30.11
+      postcss: 8.4.45
+      source-map-js: 1.2.0
 
   /@vue/compiler-ssr@3.4.38:
     resolution: {integrity: sha512-YXznKFQ8dxYpAz9zLuVvfcXhc31FSPFDcqr0kyujbOwNhlmaNvL2QfIy+RZeJgSn5Fk54CWoEUeW+NVBAogGaw==}
     dependencies:
       '@vue/compiler-dom': 3.4.38
       '@vue/shared': 3.4.38
+    dev: false
+
+  /@vue/compiler-ssr@3.5.1:
+    resolution: {integrity: sha512-C1hpSHQgRM8bg+5XWWD7CkFaVpSn9wZHCLRd10AmxqrH17d4EMP6+XcZpwBOM7H1jeStU5naEapZZWX0kso1tQ==}
+    dependencies:
+      '@vue/compiler-dom': 3.5.1
+      '@vue/shared': 3.5.1
 
   /@vue/devtools-api@6.6.3:
     resolution: {integrity: sha512-0MiMsFma/HqA6g3KLKn+AGpL1kgKhFWszC9U29NfpWK5LE7bjeXxySWJrOJ77hBz+TBrBQ7o4QJqbPbqbs8rJw==}
@@ -2674,56 +2712,60 @@ packages:
       rfdc: 1.4.1
     dev: false
 
-  /@vue/reactivity@3.4.38:
-    resolution: {integrity: sha512-4vl4wMMVniLsSYYeldAKzbk72+D3hUnkw9z8lDeJacTxAkXeDAP1uE9xr2+aKIN0ipOL8EG2GPouVTH6yF7Gnw==}
+  /@vue/reactivity@3.5.1:
+    resolution: {integrity: sha512-aFE1nMDfbG7V+U5vdOk/NXxH/WX78XuAfX59vWmCM7Ao4lieoc83RkzOAWun61sQXlzNZ4IgROovFBHg+Iz1+Q==}
     dependencies:
-      '@vue/shared': 3.4.38
+      '@vue/shared': 3.5.1
 
-  /@vue/runtime-core@3.4.38:
-    resolution: {integrity: sha512-21z3wA99EABtuf+O3IhdxP0iHgkBs1vuoCAsCKLVJPEjpVqvblwBnTj42vzHRlWDCyxu9ptDm7sI2ZMcWrQqlA==}
+  /@vue/runtime-core@3.5.1:
+    resolution: {integrity: sha512-Ce92CCholNRHR3ZtzpRp/7CDGIPFxQ7ElXt9iH91ilK5eOrUv3Z582NWJesuM3aYX71BujVG5/4ypUxigGNxjA==}
     dependencies:
-      '@vue/reactivity': 3.4.38
-      '@vue/shared': 3.4.38
+      '@vue/reactivity': 3.5.1
+      '@vue/shared': 3.5.1
 
-  /@vue/runtime-dom@3.4.38:
-    resolution: {integrity: sha512-afZzmUreU7vKwKsV17H1NDThEEmdYI+GCAK/KY1U957Ig2NATPVjCROv61R19fjZNzMmiU03n79OMnXyJVN0UA==}
+  /@vue/runtime-dom@3.5.1:
+    resolution: {integrity: sha512-B/fUJfBLp5PwE0EWNfBYnA4JUea8Yufb3wN8fN0/HzaqBdkiRHh4sFHOjWqIY8GS75gj//8VqeEqhcU6yUjIkA==}
     dependencies:
-      '@vue/reactivity': 3.4.38
-      '@vue/runtime-core': 3.4.38
-      '@vue/shared': 3.4.38
+      '@vue/reactivity': 3.5.1
+      '@vue/runtime-core': 3.5.1
+      '@vue/shared': 3.5.1
       csstype: 3.1.3
 
-  /@vue/server-renderer@3.4.38(vue@3.4.38):
-    resolution: {integrity: sha512-NggOTr82FbPEkkUvBm4fTGcwUY8UuTsnWC/L2YZBmvaQ4C4Jl/Ao4HHTB+l7WnFCt5M/dN3l0XLuyjzswGYVCA==}
+  /@vue/server-renderer@3.5.1(vue@3.5.1):
+    resolution: {integrity: sha512-C5V/fjQTitgVaRNH5wCoHynaWysjZ+VH68drNsAvQYg4ArHsZUQNz0nHoEWRj41nzqkVn2RUlnWaEOTl2o1Ppg==}
     peerDependencies:
-      vue: 3.4.38
+      vue: 3.5.1
     dependencies:
-      '@vue/compiler-ssr': 3.4.38
-      '@vue/shared': 3.4.38
-      vue: 3.4.38(typescript@5.5.4)
+      '@vue/compiler-ssr': 3.5.1
+      '@vue/shared': 3.5.1
+      vue: 3.5.1(typescript@5.5.4)
 
   /@vue/shared@3.4.38:
     resolution: {integrity: sha512-q0xCiLkuWWQLzVrecPb0RMsNWyxICOjPrcrwxTUEHb1fsnvni4dcuyG7RT/Ie7VPTvnjzIaWzRMUBsrqNj/hhw==}
+    dev: false
 
-  /@vueuse/core@10.11.1(vue@3.4.38):
+  /@vue/shared@3.5.1:
+    resolution: {integrity: sha512-NdcTRoO4KuW2RSFgpE2c+E/R/ZHaRzWPxAGxhmxZaaqLh6nYCXx7lc9a88ioqOCxCaV2SFJmujkxbUScW7dNsQ==}
+
+  /@vueuse/core@10.11.1(vue@3.5.1):
     resolution: {integrity: sha512-guoy26JQktXPcz+0n3GukWIy/JDNKti9v6VEMu6kV2sYBsWuGiTU8OWdg+ADfUbHg3/3DlqySDe7JmdHrktiww==}
     dependencies:
       '@types/web-bluetooth': 0.0.20
       '@vueuse/metadata': 10.11.1
-      '@vueuse/shared': 10.11.1(vue@3.4.38)
-      vue-demi: 0.14.10(vue@3.4.38)
+      '@vueuse/shared': 10.11.1(vue@3.5.1)
+      vue-demi: 0.14.10(vue@3.5.1)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
     dev: false
 
-  /@vueuse/core@11.0.3(vue@3.4.38):
+  /@vueuse/core@11.0.3(vue@3.5.1):
     resolution: {integrity: sha512-RENlh64+SYA9XMExmmH1a3TPqeIuJBNNB/63GT35MZI+zpru3oMRUA6cEFr9HmGqEgUisurwGwnIieF6qu3aXw==}
     dependencies:
       '@types/web-bluetooth': 0.0.20
       '@vueuse/metadata': 11.0.3
-      '@vueuse/shared': 11.0.3(vue@3.4.38)
-      vue-demi: 0.14.10(vue@3.4.38)
+      '@vueuse/shared': 11.0.3(vue@3.5.1)
+      vue-demi: 0.14.10(vue@3.5.1)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
@@ -2737,19 +2779,19 @@ packages:
     resolution: {integrity: sha512-+FtbO4SD5WpsOcQTcC0hAhNlOid6QNLzqedtquTtQ+CRNBoAt9GuV07c6KNHK1wCmlq8DFPwgiLF2rXwgSHX5Q==}
     dev: false
 
-  /@vueuse/shared@10.11.1(vue@3.4.38):
+  /@vueuse/shared@10.11.1(vue@3.5.1):
     resolution: {integrity: sha512-LHpC8711VFZlDaYUXEBbFBCQ7GS3dVU9mjOhhMhXP6txTV4EhYQg/KGnQuvt/sPAtoUKq7VVUnL6mVtFoL42sA==}
     dependencies:
-      vue-demi: 0.14.10(vue@3.4.38)
+      vue-demi: 0.14.10(vue@3.5.1)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
     dev: false
 
-  /@vueuse/shared@11.0.3(vue@3.4.38):
+  /@vueuse/shared@11.0.3(vue@3.5.1):
     resolution: {integrity: sha512-0rY2m6HS5t27n/Vp5cTDsKTlNnimCqsbh/fmT2LgE+aaU42EMfXo8+bNX91W9I7DDmxfuACXMmrd7d79JxkqWA==}
     dependencies:
-      vue-demi: 0.14.10(vue@3.4.38)
+      vue-demi: 0.14.10(vue@3.5.1)
     transitivePeerDependencies:
       - '@vue/composition-api'
       - vue
@@ -4005,14 +4047,14 @@ packages:
       embla-carousel: 8.2.0
     dev: false
 
-  /embla-carousel-vue@8.2.0(vue@3.4.38):
+  /embla-carousel-vue@8.2.0(vue@3.5.1):
     resolution: {integrity: sha512-6ySaY7N10j2mqPn9fPFKJPWos5jBgMSFr7uRjqYN2T62dFR/qkpTqj1KLNhS25CQ0rBAnVpdbT+wzp6fazUURw==}
     peerDependencies:
       vue: ^3.2.37
     dependencies:
       embla-carousel: 8.2.0
       embla-carousel-reactive-utils: 8.2.0(embla-carousel@8.2.0)
-      vue: 3.4.38(typescript@5.5.4)
+      vue: 3.5.1(typescript@5.5.4)
     dev: false
 
   /embla-carousel@8.2.0:
@@ -5080,12 +5122,12 @@ packages:
     dependencies:
       yallist: 3.1.1
 
-  /lucide-vue-next@0.438.0(vue@3.4.38):
+  /lucide-vue-next@0.438.0(vue@3.5.1):
     resolution: {integrity: sha512-xlPIeYbhfI0gDJwolST7cjc6KAi1oWN9HEWGuK+5gMmoi+a6bJ3mI062+7tqzOdjSE07l7jyBH4mladQVLIQRA==}
     peerDependencies:
       vue: '>=3.0.1'
     dependencies:
-      vue: 3.4.38(typescript@5.5.4)
+      vue: 3.5.1(typescript@5.5.4)
     dev: false
 
   /magic-string-ast@0.6.2:
@@ -5526,10 +5568,10 @@ packages:
       '@nuxt/kit': 3.13.0(magicast@0.3.5)
       '@nuxt/schema': 3.13.0
       '@nuxt/telemetry': 2.5.4
-      '@nuxt/vite-builder': 3.13.0(typescript@5.5.4)(vue@3.4.38)
+      '@nuxt/vite-builder': 3.13.0(typescript@5.5.4)(vue@3.5.1)
       '@unhead/dom': 1.10.0
       '@unhead/ssr': 1.10.0
-      '@unhead/vue': 1.10.0(vue@3.4.38)
+      '@unhead/vue': 1.10.0(vue@3.5.1)
       '@vue/shared': 3.4.38
       acorn: 8.12.1
       c12: 1.11.1(magicast@0.3.5)
@@ -5573,13 +5615,13 @@ packages:
       unenv: 1.10.0
       unimport: 3.11.1(rollup@4.21.2)
       unplugin: 1.12.3
-      unplugin-vue-router: 0.10.7(vue-router@4.4.3)(vue@3.4.38)
+      unplugin-vue-router: 0.10.7(vue-router@4.4.3)(vue@3.5.1)
       unstorage: 1.10.2(ioredis@5.4.1)
       untyped: 1.4.2
-      vue: 3.4.38(typescript@5.5.4)
+      vue: 3.5.1(typescript@5.5.4)
       vue-bundle-renderer: 2.1.0
       vue-devtools-stub: 0.1.0
-      vue-router: 4.4.3(vue@3.4.38)
+      vue-router: 4.4.3(vue@3.5.1)
     transitivePeerDependencies:
       - '@azure/app-configuration'
       - '@azure/cosmos'
@@ -6209,6 +6251,14 @@ packages:
       picocolors: 1.0.1
       source-map-js: 1.2.0
 
+  /postcss@8.4.45:
+    resolution: {integrity: sha512-7KTLTdzdZZYscUc65XmjFiB73vBhBfbPztCYdUNvlaso9PrzjzcmjqBPR0lNGkcVlcO4BjiO5rK/qNz+XAen1Q==}
+    engines: {node: ^10 || ^12 || >=14}
+    dependencies:
+      nanoid: 3.3.7
+      picocolors: 1.0.1
+      source-map-js: 1.2.0
+
   /potpack@1.0.2:
     resolution: {integrity: sha512-choctRBIV9EMT9WGAZHn3V7t0Z2pMQyl0EZE6pFc/6ml3ssw7Dlf/oAOvFwjm1HVsqfQN8GfeFyJ+d8tRzqueQ==}
     dev: false
@@ -6254,23 +6304,23 @@ packages:
     resolution: {integrity: sha512-RKJ22hX8mHe3Y6wH/N3wCM6BWtjaxIyyUIkpHOvfFnxdI4yD4tBXEBKSbriGujF6jnSVkJrffuo6vxACiSSxIw==}
     dev: false
 
-  /radix-vue@1.9.5(vue@3.4.38):
+  /radix-vue@1.9.5(vue@3.5.1):
     resolution: {integrity: sha512-vtCq+WDAZj5BQtJiChGf/oC7w3y7jaod3agcntgph7fD6aqdcghLZYcUWdgT/XNJs2bEsk+3cjK3ONPRNeFcuQ==}
     peerDependencies:
       vue: '>= 3.2.0'
     dependencies:
       '@floating-ui/dom': 1.6.10
-      '@floating-ui/vue': 1.1.4(vue@3.4.38)
+      '@floating-ui/vue': 1.1.4(vue@3.5.1)
       '@internationalized/date': 3.5.5
       '@internationalized/number': 3.5.3
-      '@tanstack/vue-virtual': 3.10.6(vue@3.4.38)
-      '@vueuse/core': 10.11.1(vue@3.4.38)
-      '@vueuse/shared': 10.11.1(vue@3.4.38)
+      '@tanstack/vue-virtual': 3.10.6(vue@3.5.1)
+      '@vueuse/core': 10.11.1(vue@3.5.1)
+      '@vueuse/shared': 10.11.1(vue@3.5.1)
       aria-hidden: 1.2.4
       defu: 6.1.4
       fast-deep-equal: 3.1.3
       nanoid: 5.0.7
-      vue: 3.4.38(typescript@5.5.4)
+      vue: 3.5.1(typescript@5.5.4)
     transitivePeerDependencies:
       - '@vue/composition-api'
     dev: false
@@ -7119,7 +7169,7 @@ packages:
     resolution: {integrity: sha512-gptHNQghINnc/vTGIk0SOFGFNXw7JVrlRUtConJRlvaw6DuX0wO5Jeko9sWrMBhh+PsYAZ7oXAiOnf/UKogyiw==}
     engines: {node: '>= 10.0.0'}
 
-  /unplugin-vue-router@0.10.7(vue-router@4.4.3)(vue@3.4.38):
+  /unplugin-vue-router@0.10.7(vue-router@4.4.3)(vue@3.5.1):
     resolution: {integrity: sha512-5KEh7Swc1L2Xh5WOD7yQLeB5bO3iTw+Hst7qMxwmwYcPm9qVrtrRTZUftn2Hj4is17oMKgqacyWadjQzwW5B/Q==}
     peerDependencies:
       vue-router: ^4.4.0
@@ -7129,7 +7179,7 @@ packages:
     dependencies:
       '@babel/types': 7.25.6
       '@rollup/pluginutils': 5.1.0(rollup@4.21.2)
-      '@vue-macros/common': 1.12.2(vue@3.4.38)
+      '@vue-macros/common': 1.12.2(vue@3.5.1)
       ast-walker-scope: 0.6.2
       chokidar: 3.6.0
       fast-glob: 3.3.2
@@ -7140,7 +7190,7 @@ packages:
       pathe: 1.1.2
       scule: 1.3.0
       unplugin: 1.12.3
-      vue-router: 4.4.3(vue@3.4.38)
+      vue-router: 4.4.3(vue@3.5.1)
       yaml: 2.5.0
     transitivePeerDependencies:
       - rollup
@@ -7269,7 +7319,7 @@ packages:
   /util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
 
-  /v-calendar@3.1.2(@popperjs/core@2.11.8)(vue@3.4.38):
+  /v-calendar@3.1.2(@popperjs/core@2.11.8)(vue@3.5.1):
     resolution: {integrity: sha512-QDWrnp4PWCpzUblctgo4T558PrHgHzDtQnTeUNzKxfNf29FkCeFpwGd9bKjAqktaa2aJLcyRl45T5ln1ku34kg==}
     peerDependencies:
       '@popperjs/core': ^2.0.0
@@ -7281,8 +7331,8 @@ packages:
       date-fns: 2.30.0
       date-fns-tz: 2.0.1(date-fns@2.30.0)
       lodash: 4.17.21
-      vue: 3.4.38(typescript@5.5.4)
-      vue-screen-utils: 1.0.0-beta.13(vue@3.4.38)
+      vue: 3.5.1(typescript@5.5.4)
+      vue-screen-utils: 1.0.0-beta.13(vue@3.5.1)
     dev: false
 
   /vary@1.1.2:
@@ -7290,27 +7340,27 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vaul-vue@0.2.0(radix-vue@1.9.5)(vue@3.4.38):
+  /vaul-vue@0.2.0(radix-vue@1.9.5)(vue@3.5.1):
     resolution: {integrity: sha512-YV0zqxc8NiVzr1z/Awwbaty0UDDchxj5BfhFbLiYu+Uz0rCfSaDK2zwmuXZvejBJKLGbWw9I5GLHJRse14lQew==}
     peerDependencies:
       radix-vue: ^1.4.0
       vue: ^3.3.0
     dependencies:
-      '@vueuse/core': 10.11.1(vue@3.4.38)
-      radix-vue: 1.9.5(vue@3.4.38)
-      vue: 3.4.38(typescript@5.5.4)
+      '@vueuse/core': 10.11.1(vue@3.5.1)
+      radix-vue: 1.9.5(vue@3.5.1)
+      vue: 3.5.1(typescript@5.5.4)
     transitivePeerDependencies:
       - '@vue/composition-api'
     dev: false
 
-  /vee-validate@4.13.2(vue@3.4.38):
+  /vee-validate@4.13.2(vue@3.5.1):
     resolution: {integrity: sha512-HlpR/6MJ92TW9f135umMZKUqdd/tFQTxLNSf2ImbU4Y/MlLVAUpF1l64VdjTOhbClAqPjCb5p/SqHDxLpUHXrw==}
     peerDependencies:
       vue: ^3.4.26
     dependencies:
       '@vue/devtools-api': 6.6.3
       type-fest: 4.26.0
-      vue: 3.4.38(typescript@5.5.4)
+      vue: 3.5.1(typescript@5.5.4)
     dev: false
 
   /vite-hot-client@0.2.3(vite@5.4.2):
@@ -7532,7 +7582,7 @@ packages:
       ufo: 1.5.4
     dev: false
 
-  /vue-demi@0.14.10(vue@3.4.38):
+  /vue-demi@0.14.10(vue@3.5.1):
     resolution: {integrity: sha512-nMZBOwuzabUO0nLgIcc6rycZEebF6eeUfaiQx9+WSk8e29IbLvPU9feI6tqW4kTo3hvoYAJkMh8n8D0fuISphg==}
     engines: {node: '>=12'}
     hasBin: true
@@ -7544,47 +7594,47 @@ packages:
       '@vue/composition-api':
         optional: true
     dependencies:
-      vue: 3.4.38(typescript@5.5.4)
+      vue: 3.5.1(typescript@5.5.4)
     dev: false
 
   /vue-devtools-stub@0.1.0:
     resolution: {integrity: sha512-RutnB7X8c5hjq39NceArgXg28WZtZpGc3+J16ljMiYnFhKvd8hITxSWQSQ5bvldxMDU6gG5mkxl1MTQLXckVSQ==}
     dev: false
 
-  /vue-router@4.4.3(vue@3.4.38):
+  /vue-router@4.4.3(vue@3.5.1):
     resolution: {integrity: sha512-sv6wmNKx2j3aqJQDMxLFzs/u/mjA9Z5LCgy6BE0f7yFWMjrPLnS/sPNn8ARY/FXw6byV18EFutn5lTO6+UsV5A==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
       '@vue/devtools-api': 6.6.3
-      vue: 3.4.38(typescript@5.5.4)
+      vue: 3.5.1(typescript@5.5.4)
     dev: false
 
-  /vue-screen-utils@1.0.0-beta.13(vue@3.4.38):
+  /vue-screen-utils@1.0.0-beta.13(vue@3.5.1):
     resolution: {integrity: sha512-EJ/8TANKhFj+LefDuOvZykwMr3rrLFPLNb++lNBqPOpVigT2ActRg6icH9RFQVm4nHwlHIHSGm5OY/Clar9yIg==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
-      vue: 3.4.38(typescript@5.5.4)
+      vue: 3.5.1(typescript@5.5.4)
     dev: false
 
   /vue-sonner@1.1.5:
     resolution: {integrity: sha512-uwtZgRs1pcqZuPJFOrNdutphZ5UVVjM4zbXMM7E2LAXTGnYIOgPmUZdWDrEeI+IGXCDsY8aRuk5bh3u4rp20Sg==}
     dev: false
 
-  /vue@3.4.38(typescript@5.5.4):
-    resolution: {integrity: sha512-f0ZgN+mZ5KFgVv9wz0f4OgVKukoXtS3nwET4c2vLBGQR50aI8G0cqbFtLlX9Yiyg3LFGBitruPHt2PxwTduJEw==}
+  /vue@3.5.1(typescript@5.5.4):
+    resolution: {integrity: sha512-k4UNnbPOEskodSxMtv+B9GljdB0C9ubZDOmW6vnXVGIfMqmEsY2+ohasjGguhGkMkrcP/oOrbH0dSD41x5JQFw==}
     peerDependencies:
       typescript: '*'
     peerDependenciesMeta:
       typescript:
         optional: true
     dependencies:
-      '@vue/compiler-dom': 3.4.38
-      '@vue/compiler-sfc': 3.4.38
-      '@vue/runtime-dom': 3.4.38
-      '@vue/server-renderer': 3.4.38(vue@3.4.38)
-      '@vue/shared': 3.4.38
+      '@vue/compiler-dom': 3.5.1
+      '@vue/compiler-sfc': 3.5.1
+      '@vue/runtime-dom': 3.5.1
+      '@vue/server-renderer': 3.5.1(vue@3.5.1)
+      '@vue/shared': 3.5.1
       typescript: 5.5.4
 
   /webidl-conversions@3.0.1:

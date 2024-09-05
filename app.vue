@@ -1,7 +1,8 @@
 <script setup lang="ts">
+import { useId } from "vue";
 import { ConfigProvider } from "radix-vue";
 
-const useId = () => useId;
+const useId = () => useId();
 </script>
 
 <template>
