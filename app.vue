@@ -1,15 +1,11 @@
 <script setup lang="ts">
 import { useId } from "vue";
 import { ConfigProvider } from "radix-vue";
-
-const useId = () => useId();
 </script>
 
 <template>
   <ConfigProvider :use-id="useId">
-    <div>
-      <NuxtRouteAnnouncer />
-      <LayoutDarkModeToggle />
-    </div>
+    <NuxtRouteAnnouncer />
+    <LayoutDarkModeToggle />
   </ConfigProvider>
 </template>
